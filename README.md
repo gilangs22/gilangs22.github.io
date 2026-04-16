@@ -1,1 +1,0 @@
-# gilang-saputra.github.io
