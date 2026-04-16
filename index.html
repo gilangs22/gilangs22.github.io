@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gilang Saputra | Informatics Portfolio</title>
+  <meta
+    name="description"
+    content="Portofolio Gilang Saputra, mahasiswa Universitas Wijaya Kusuma Surabaya dengan fokus pada web development, networking, cybersecurity, dan kepemimpinan organisasi."
+  >
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="background-orb background-orb-left"></div>
+  <div class="background-orb background-orb-right"></div>
+
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="brand" href="#home">
+        <span class="brand-mark">GS</span>
+        <span class="brand-text">gilang.saputra</span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-label="Buka menu navigasi">
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="site-nav">
+        <a href="#about">Tentang</a>
+        <a href="#skills">Skill</a>
+        <a href="#projects">Project</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Kontak</a>
+      </nav>
+    </header>
+
+    <main id="home">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Informatics Student / Web Developer / Security Enthusiast</p>
+          <h1>
+            Saya merancang pengalaman digital yang
+            <span>bersih di frontend, kuat di struktur, dan sadar keamanan.</span>
+          </h1>
+          <p class="hero-text">
+            Saya adalah Gilang Saputra, mahasiswa Universitas Wijaya Kusuma Surabaya.
+            Fokus saya ada pada pengembangan website, pembelajaran keamanan aplikasi web,
+            implementasi Snort untuk deteksi serangan, dan kepemimpinan organisasi kampus.
+          </p>
+
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">Explore Projects</a>
+            <a class="button button-secondary" href="#contact">Contact Me</a>
+          </div>
+
+          <ul class="hero-stats">
+            <li>
+              <strong>8</strong>
+              <span>Public Repositories</span>
+            </li>
+            <li>
+              <strong>6</strong>
+              <span>Semester</span>
+            </li>
+            <li>
+              <strong>2</strong>
+              <span>Leadership Roles</span>
+            </li>
+          </ul>
+        </div>
+
+        <aside class="hero-panel">
+          <div class="panel-bar">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+
+          <div class="terminal-card">
+            <p class="terminal-line">$ whoami</p>
+            <h2>Gilang Saputra</h2>
+            <p class="terminal-copy">
+              Informatics Student at Universitas Wijaya Kusuma Surabaya with interest in
+              web engineering, networking, and cybersecurity.
+            </p>
+
+            <div class="terminal-rotator">
+              <span class="terminal-prompt">status:</span>
+              <span class="typing-text" data-roles="Building BEM FT web platform|Developing e-commerce interfaces|Learning ethical web security|Implementing Snort IDS monitoring|Leading Faculty Engineering BEM"></span>
+            </div>
+
+            <div class="profile-grid">
+              <div>
+                <span>Campus</span>
+                <strong>UWKS Surabaya</strong>
+              </div>
+              <div>
+                <span>Location</span>
+                <strong>Surabaya</strong>
+              </div>
+              <div>
+                <span>Current Role</span>
+                <strong>Ketua BEM FT</strong>
+              </div>
+              <div>
+                <span>Specialty</span>
+                <strong>Web / Security / Network</strong>
+              </div>
+            </div>
+          </div>
+        </aside>
+      </section>
+
+      <section class="section" id="about">
+        <div class="section-heading">
+          <p class="eyebrow">Tentang Saya</p>
+          <h2>Teknis, adaptif, dan terbiasa memimpin tim sekaligus membangun sistem.</h2>
+        </div>
+
+        <div class="about-layout">
+          <article class="info-card spotlight-card">
+            <h3>Professional Summary</h3>
+            <p>
+              Saya aktif membangun website organisasi dan website e-commerce dengan perhatian pada
+              struktur antarmuka, pengalaman pengguna, dan kerapihan implementasi. Di sisi keamanan,
+              saya mempelajari reconnaissance, analisis SQL injection, XSS, dan hardening dasar dalam
+              konteks pembelajaran yang sah dan terkontrol. Saya juga mengerjakan implementasi Snort IDS
+              untuk mendeteksi aktivitas jaringan yang mencurigakan.
+            </p>
+          </article>
+
+          <article class="info-card accent-card">
+            <h3>Core Value Stack</h3>
+            <ul class="tag-list">
+              <li>Problem Solving</li>
+              <li>Leadership</li>
+              <li>Secure Mindset</li>
+              <li>UI Structure</li>
+              <li>Network Analysis</li>
+              <li>Team Coordination</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="skills">
+        <div class="section-heading">
+          <p class="eyebrow">Skill Matrix</p>
+          <h2>Pilih kategori untuk melihat fokus kemampuan utama saya.</h2>
+        </div>
+
+        <div class="skill-switcher" aria-label="Kategori skill">
+          <button class="skill-tab is-active" type="button" data-target="web">Web Dev</button>
+          <button class="skill-tab" type="button" data-target="security">Security</button>
+          <button class="skill-tab" type="button" data-target="network">Networking</button>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card skill-panel is-active" data-skill-panel="web">
+            <h3>Web Development</h3>
+            <p>Membangun landing page, website organisasi, dan website e-commerce dengan HTML, CSS, JavaScript, layout responsif, dan struktur konten yang jelas.</p>
+            <ul class="mini-list">
+              <li>Responsive UI</li>
+              <li>Company and campus profile pages</li>
+              <li>Clean section hierarchy</li>
+            </ul>
+          </article>
+          <article class="skill-card skill-panel" data-skill-panel="security">
+            <h3>Cybersecurity Fundamentals</h3>
+            <p>Belajar scanning, analisis service, identifikasi kerentanan web dasar seperti SQL injection dan XSS, serta pendekatan secure coding secara etis.</p>
+            <ul class="mini-list">
+              <li>Nmap reconnaissance</li>
+              <li>SQLi and XSS understanding</li>
+              <li>Ethical testing documentation</li>
+            </ul>
+          </article>
+          <article class="skill-card skill-panel" data-skill-panel="network">
+            <h3>Networking & Monitoring</h3>
+            <p>Menggunakan Wireshark untuk analisis trafik, mengelola troubleshooting jaringan dasar, dan menerapkan Snort IDS untuk deteksi aktivitas mencurigakan.</p>
+            <ul class="mini-list">
+              <li>Traffic inspection</li>
+              <li>Basic network troubleshooting</li>
+              <li>Snort rule-based detection</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="projects">
+        <div class="section-heading">
+          <p class="eyebrow">Featured Projects</p>
+          <h2>Portofolio yang menggabungkan organisasi, web, dan security practice.</h2>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card">
+            <span class="project-label">Org Platform</span>
+            <h3>Website BEM FT</h3>
+            <p>Membangun website organisasi untuk menampilkan profil, agenda, dan identitas digital BEM Fakultas Teknik secara profesional.</p>
+          </article>
+          <article class="project-card">
+            <span class="project-label">Commerce Build</span>
+            <h3>Website E-Commerce</h3>
+            <p>Mengembangkan antarmuka toko online dengan struktur halaman produk yang lebih rapi, fokus pada presentasi dan pengalaman pengguna.</p>
+          </article>
+          <article class="project-card">
+            <span class="project-label">Security Ops</span>
+            <h3>Snort Intrusion Detection System</h3>
+            <p>Menerapkan Snort untuk memonitor lalu lintas jaringan dan mengenali pola serangan sebagai bagian dari studi keamanan jaringan.</p>
+          </article>
+          <article class="project-card">
+            <span class="project-label">Ethical Lab</span>
+            <h3>Web Security Exploration</h3>
+            <p>Melakukan pembelajaran terstruktur mengenai Nmap, SQL injection, dan XSS di lingkungan yang sah, lalu mendokumentasikan hasilnya secara teknis.</p>
+          </article>
+          <article class="project-card">
+            <span class="project-label">Personal Brand</span>
+            <h3>Interactive Portfolio Website</h3>
+            <p>Mendesain website portofolio yang lebih hidup, modern, dan representatif untuk kebutuhan akademik maupun profesional.</p>
+          </article>
+          <article class="project-card">
+            <span class="project-label">Open Source Trail</span>
+            <h3>GitHub Repository Showcase</h3>
+            <p>Mengelola repository publik sebagai jejak belajar di web development, campus projects, dan cybersecurity fundamentals.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="experience">
+        <div class="section-heading">
+          <p class="eyebrow">Experience & Leadership</p>
+          <h2>Pengalaman organisasi yang memperkuat kemampuan teknis dan koordinasi tim.</h2>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item">
+            <span>Role 01</span>
+            <div>
+              <h3>Koordinator Minat dan Bakat</h3>
+              <p>Mengelola program minat dan bakat di organisasi, membantu koordinasi kegiatan, komunikasi tim, dan pengelolaan eksekusi acara.</p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <span>Role 02</span>
+            <div>
+              <h3>Ketua BEM Fakultas Teknik</h3>
+              <p>Memimpin organisasi tingkat fakultas, menyusun arah program kerja, berkoordinasi lintas divisi, dan menjaga eksekusi kegiatan tetap terstruktur.</p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <span>Tech</span>
+            <div>
+              <h3>Web Developer & Security Learner</h3>
+              <p>Membangun website kampus dan proyek personal sambil memperdalam analisis keamanan aplikasi dan monitoring jaringan.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section contact-section" id="contact">
+        <div class="section-heading">
+          <p class="eyebrow">Kontak</p>
+          <h2>Terbuka untuk kolaborasi proyek, organisasi, dan peluang magang.</h2>
+        </div>
+
+        <div class="contact-grid">
+          <article class="contact-card">
+            <p>Nama: <strong>Gilang Saputra</strong></p>
+            <p>Kampus: <strong>Universitas Wijaya Kusuma Surabaya</strong></p>
+            <p>Posisi: <strong>Ketua BEM Fakultas Teknik</strong></p>
+            <p>Fokus: <strong>Web Development, Networking, Cybersecurity</strong></p>
+          </article>
+
+          <article class="contact-card terminal-card compact-terminal">
+            <p class="terminal-line">$ cat contact.info</p>
+            <p>Email: <a href="mailto:gilangsaputra220804@gmail.com">gilangsaputra220804@gmail.com</a></p>
+            <p>WhatsApp: <a href="https://wa.me/6285855212212" target="_blank" rel="noreferrer">085855212212</a></p>
+            <p>GitHub: <a href="https://github.com/gilangs22" target="_blank" rel="noreferrer">github.com/gilangs22</a></p>
+          </article>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
